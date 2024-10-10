@@ -1,0 +1,9 @@
+services:
+  eletypes-react:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: eletypes_react
+    ports:
+      - "3000:3000"
+    container_name: eletypes_react
